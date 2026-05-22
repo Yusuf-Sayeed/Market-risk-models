@@ -26,8 +26,8 @@ ES is a coherent risk measure and preferred over VaR under Basel III / FRTB.
 
 ## Output
 
-10-Day VaR (99%): ₹9,759.80 
-10-Day ES  (99%): ₹12,416.09
+- 10-Day VaR (99%): ₹9,759.80 
+- 10-Day ES  (99%): ₹12,416.09
 
 A ₹1,00,000 Nifty 50 portfolio has a 1% chance of losing more than ₹9,759 over 10 days. In the worst 1% of scenarios, the average loss is ₹12,416.
 
