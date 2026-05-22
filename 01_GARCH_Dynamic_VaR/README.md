@@ -1,13 +1,5 @@
 # GARCH(1,1) Market Risk Model — ETERNAL.NS (Zomato)
 
-Quantitative risk models built in Python, replicating frameworks used by risk desks under Basel III.
-
----
-
-## 1. GARCH(1,1) — Dynamic VaR & Expected Shortfall | ETERNAL.NS (Zomato)
-
-**File:** `Eternal_GARCH_Model.ipynb`
-
 Builds a complete market risk framework from scratch on Zomato (ETERNAL.NS) daily price data from NSE listing date (July 2021) through May 2026.
 
 **What it covers:**
