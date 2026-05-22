@@ -41,4 +41,4 @@ A ₹1,00,000 Nifty 50 portfolio has a 1% chance of losing more than ₹9,759 ov
 
 ## Author
 
-Yusuf Sayeed | FRM Part I | Geography (Hons) + Economics, Jamia Millia Islamia
+Prepared by: Yusuf Sayeed | FRM Part 1 Cleared | FMVA
