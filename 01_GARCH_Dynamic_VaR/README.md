@@ -1,4 +1,4 @@
-# Market Risk Models
+# GARCH(1,1) Market Risk Model — ETERNAL.NS (Zomato)
 
 Quantitative risk models built in Python, replicating frameworks used by risk desks under Basel III.
 
