@@ -2,25 +2,19 @@
 
 Quantitative risk models built in Python, replicating frameworks used by risk desks under Basel III.
 
+| # | Model | Asset | Method |
+|---|---|---|---|
+| 01 | [GARCH(1,1) Dynamic VaR](./01_GARCH_Dynamic_VaR/) | Zomato (ETERNAL.NS) | MLE, Backtesting |
+| 02 | [Monte Carlo VaR](./02_MonteCarlo_VaR/) | Nifty 50 (^NSEI) | Historical Bootstrap |
+
 ---
 
-## 1. GARCH(1,1) — Dynamic VaR & Expected Shortfall | ETERNAL.NS (Zomato)
+## 01. GARCH(1,1) — Dynamic VaR & Expected Shortfall | Zomato (ETERNAL.NS)
 
-**File:** `Eternal_GARCH_Model.ipynb`
+Builds a complete market risk framework on Zomato daily price data from NSE listing (July 2021) through May 2026.
 
-Builds a complete market risk framework from scratch on Zomato (ETERNAL.NS) daily price data from NSE listing date (July 2021) through May 2026.
-
-**What it covers:**
-- Log return computation and volatility clustering analysis
-- GARCH(1,1) conditional volatility estimation via Maximum Likelihood
-- Parameter interpretation: ω, α (shock sensitivity), β (persistence)
-- 1-day 99% Value at Risk (VaR) using GARCH conditional volatility
-- Backtesting: 14 breaches out of 1,163 days (1.20% vs theoretical 1%)
-- Expected Shortfall (CVaR) at 99%: -10.18%
-
-**Key results:**
 | Metric | Value |
-|--------|-------|
+|---|---|
 | α (shock sensitivity) | 0.0999 |
 | β (persistence) | 0.7989 |
 | α + β | 0.8988 (stationary) |
@@ -28,12 +22,17 @@ Builds a complete market risk framework from scratch on Zomato (ETERNAL.NS) dail
 | VaR breach rate | 1.20% |
 | Expected Shortfall (99%) | -10.18% |
 
-**Tools:** Python, pandas, numpy, arch, yfinance, matplotlib, scipy
+---
+
+## 02. Monte Carlo Simulation — VaR & Expected Shortfall | Nifty 50 (^NSEI)
+
+Estimates 10-day, 99% VaR and Expected Shortfall for a ₹1,00,000 Nifty 50 portfolio using historical bootstrapped Monte Carlo simulation.
+
+| Metric | Value |
+|---|---|
+| 10-Day VaR (99%) | ₹9,759.80 |
+| 10-Day ES (99%) | ₹12,416.09 |
 
 ---
 
-## About
-
-Built as part of a quantitative risk modelling portfolio targeting market risk and liquidity risk roles.
-
-**Author:** Yusuf Sayeed | FRM Part 1 Cleared | FMVA (In Progress)
+**Author:** Yusuf Sayeed | FRM Part I | Geography (Hons) + Economics, Jamia Millia Islamia
