@@ -35,4 +35,4 @@ Estimates 10-day, 99% VaR and Expected Shortfall for a ₹1,00,000 Nifty 50 port
 
 ---
 
-**Author:** Yusuf Sayeed | FRM Part I | Geography (Hons) + Economics, Jamia Millia Islamia
+**Author:** Yusuf Sayeed | FRM Part I Cleared | FMVA
